@@ -1,19 +1,19 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 
-import "#/styles/globals.css";
+import '#/styles/globals.css';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Next.js Sandbox",
+  title: 'Next.js Sandbox',
   icons: {
-    icon: "/favicon.ico",
-  },
+    icon: '/favicon.ico'
+  }
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
