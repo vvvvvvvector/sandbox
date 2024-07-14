@@ -1,5 +1,5 @@
 {
-  "name": "network-turborepo",
+  "name": "sandbox",
   "private": true,
   "workspaces": [
     "apps/*"
